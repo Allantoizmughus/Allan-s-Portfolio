@@ -19,3 +19,22 @@ nav{
     margin-top: 30px;
 }
 
+#profilepic{
+    shape-outside: circle();
+    clip-path: circle();
+    width: 200px;
+    height: 200px;
+}
+
+#profile{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+#describe{
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: center;
+    font-size: 17px;
+}
