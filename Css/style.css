@@ -38,3 +38,42 @@ nav{
     text-align: center;
     font-size: 17px;
 }
+
+#contacts{
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#email{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+#img1{
+    margin-right: 8px;
+}
+#phone{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+#img2{
+    margin-right: 10px;
+}
+#link{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+#img3{
+    margin-right: 10px;
+}
+#github{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+#img4{
+    margin-right: 7px;
+}
