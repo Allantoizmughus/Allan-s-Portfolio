@@ -81,3 +81,15 @@ nav{
 #img4{
     margin-right: 7px;
 }
+
+#describe>p{
+    color: blue;
+    font-style: italic;
+}
+h1{
+    font-size: 28px;
+    margin-top: 15px;
+    text-decoration: underline;
+    color: navy;
+    margin-bottom: 0px;
+}
