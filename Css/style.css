@@ -17,6 +17,10 @@ nav{
 }
 .col-md-4{
     margin-top: 30px;
+    transition: transform .2s;
+}
+.col-md-4:hover{
+    transform: scale(1.05);
 }
 
 #profilepic{
