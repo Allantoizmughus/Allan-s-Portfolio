@@ -1,3 +1,32 @@
+/* fonts */
+@font-face {
+    font-family: Golden;
+    src: url(/fonts/GoldenBrickPersonalUseRegular-eZyr6.ttf);
+}
+@font-face {
+    font-family: sweet;
+    src: url(/fonts/SweetHipster-PzlE.ttf);
+}
+@font-face {
+    font-family: Rosmatica;
+    src: url(/fonts/RosmatikaRegular-BWA45.ttf);
+}
+@font-face {
+    font-family: Band;
+    src: url(/fonts/BandarItalic-MVdOY.ttf);
+}
+@font-face {
+    font-family: Air;
+    src: url(/fonts/AirtravelerspersonaluseBdit-ow59x.otf);
+}
+@font-face {
+    font-family: Candle;
+    src: url(/fonts/CandletonDemo-2OB9e.otf);
+}
+
+
+
+
 nav{
     width: 100%;
     height: 60px;
@@ -35,6 +64,16 @@ nav{
     flex-direction: column;
     align-content: center;
     align-items: center;
+}
+#profile>#name{
+    font-family: Golden;
+}
+#profile>p{
+    font-family: Candle;
+    font-size: 27px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 #describe{
     margin-right: 150px;
@@ -89,7 +128,17 @@ nav{
 h1{
     font-size: 28px;
     margin-top: 15px;
-    text-decoration: underline;
     color: navy;
     margin-bottom: 0px;
+}
+h1>hr{
+    width: 600px;
+}
+h3{
+    font-family: Air;
+}
+.technology{
+    color: navy;
+    font-family: Band;
+    font-size: 17px;
 }
